@@ -17,6 +17,10 @@
 		2B11856328E8E94E002A702D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B11853928E8E94C002A702D /* ContentView.swift */; };
 		2B11856428E8E94E002A702D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B11853A28E8E94E002A702D /* Assets.xcassets */; };
 		2B11856528E8E94E002A702D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B11853A28E8E94E002A702D /* Assets.xcassets */; };
+		2B11857528E8F645002A702D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B11857428E8F645002A702D /* CardView.swift */; };
+		2B11857628E8F645002A702D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B11857428E8F645002A702D /* CardView.swift */; };
+		2B11857828E8F755002A702D /* GuestCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B11857728E8F755002A702D /* GuestCountView.swift */; };
+		2B11857928E8F755002A702D /* GuestCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B11857728E8F755002A702D /* GuestCountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		2B11855828E8E94E002A702D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B11855C28E8E94E002A702D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		2B11855E28E8E94E002A702D /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		2B11857428E8F645002A702D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2B11857728E8F755002A702D /* GuestCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestCountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 			children = (
 				2B11853828E8E94C002A702D /* TipCalculatorApp.swift */,
 				2B11853928E8E94C002A702D /* ContentView.swift */,
+				2B11857428E8F645002A702D /* CardView.swift */,
+				2B11857728E8F755002A702D /* GuestCountView.swift */,
 				2B11853A28E8E94E002A702D /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -300,7 +308,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B11856228E8E94E002A702D /* ContentView.swift in Sources */,
+				2B11857528E8F645002A702D /* CardView.swift in Sources */,
 				2B11856028E8E94E002A702D /* TipCalculatorApp.swift in Sources */,
+				2B11857828E8F755002A702D /* GuestCountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B11856328E8E94E002A702D /* ContentView.swift in Sources */,
+				2B11857628E8F645002A702D /* CardView.swift in Sources */,
 				2B11856128E8E94E002A702D /* TipCalculatorApp.swift in Sources */,
+				2B11857928E8F755002A702D /* GuestCountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
